@@ -21,13 +21,13 @@ body {
     height: 2327px;
     background: #fdfdff;   
     margin: 0 auto; 
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 /* header */
 .container {
     width: 1170px;
     margin: 0 auto;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 .header-wrapper {
     display: flex;
@@ -61,7 +61,7 @@ h1 {
 }
 /* promo */
 .promo {
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 .promo h1 {
     margin-top: 40px;
@@ -78,7 +78,7 @@ h1 {
     margin: 120px 125px 0 ;
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 .date {
@@ -96,7 +96,7 @@ h1 {
     line-height: 142%;
 }
 .line {
-    border: 1px solid #00c6bd;
+    /* border: 1px solid #00c6bd; */
     width: 268px;
     height: 0px;
     margin-top: 15px;
@@ -113,14 +113,14 @@ h1 {
 .child {
     width: 1030px;
     height: 252px;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     display: flex;
     margin: 100px 125px 0 125px;
     justify-content: space-between;
 }
 
 .line-child {
-    border: 1px solid #00c6bd;
+    /* border: 1px solid #00c6bd; */
     width: 217px;
     height: 0px;
     margin-top: 15px;
@@ -136,7 +136,7 @@ h1 {
 .contact {
     width: 1010px;
     height: 351px;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     margin-top: 120px;
     margin-left: 55px;
     display: flex;
@@ -150,7 +150,7 @@ h1 {
    
 }
 .line-contact {
-    border: 1px solid #00c6bd;
+    /* border: 1px solid #00c6bd; */
     width: 113px;
     height: 0px;
     margin-top: 15px;
@@ -190,3 +190,47 @@ h1 {
     width: 40px;
     height: 40px;    
 }
+
+/*  footer */
+.footer-content {
+    width: 1170px;
+    height: 228px;
+    margin: 120px auto 60px;
+    padding-top: 60px;
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-logo-info {
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo {
+    width: 100px;
+    height: 106px;
+}
+.politics {
+    margin-top: 30px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+}
+.copyright {
+     font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+}
+
+.footer-nav {
+    display: flex;
+}
+.footer-nav-content, .footer-yaht-club-content, .footer-services-content, .footer-regattas-content {
+    width: 165px;
+    height: 166px;
+}
+.footer-nav-content, .footer-yaht-club-content, .footer-services-content {
+    margin-right: 60px;
+} 
