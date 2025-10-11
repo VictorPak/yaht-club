@@ -226,6 +226,7 @@ h1 {
 
 .footer-nav {
     display: flex;
+    justify-content: space-between;
 }
 .footer-nav-content, .footer-yaht-club-content, .footer-services-content, .footer-regattas-content {
     width: 165px;
